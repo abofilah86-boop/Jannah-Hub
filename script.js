@@ -211,7 +211,7 @@ function applySiteConfig() {
         if (siteConfig.bannerImage && siteConfig.bannerImage.trim() !== "") {
             img.src = siteConfig.bannerImage;
         } else {
-            img.src = 'assets/logo.png'; // Default
+            img.src = 'logo.png'; // Default
         }
     }
 
